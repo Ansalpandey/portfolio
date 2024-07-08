@@ -138,34 +138,42 @@ export const testimonials = [
 export const companies = [
   {
     id: 1,
-    name: "Jetpack Compose",
-    img: "/jetpackcompose.png",
-    nameImg: "/cloudName.svg",
+    name: "Kotlin",
+    img: "/ktl.svg",
   },
   {
     id: 2,
-    name: "appwrite",
-    img: "/app.svg",
-    nameImg: "/appName.svg",
+    name: "android",
+    img: "/android.svg",
   },
   {
     id: 3,
-    name: "HOSTINGER",
-    img: "/host.svg",
-    nameImg: "/hostName.svg",
+    name: "firebase",
+    img: "/firebase.svg",
   },
   {
     id: 4,
-    name: "stream",
-    img: "/s.svg",
-    nameImg: "/streamName.svg",
+    name: "expressjs",
+    img: "/expressjs.svg",
   },
+
   {
     id: 5,
+    name: "expressjs",
+    img: "/java.svg",
+  },
+
+  {
+    id: 6,
     name: "docker.",
     img: "/dock.svg",
-    nameImg: "/dockerName.svg",
   },
+
+  {
+    id: 6,
+    name: "CMP.",
+    img: "/cmp.svg",
+  }
 ];
 
 export const workExperience = [

@@ -53,7 +53,7 @@ const Hero = () => {
             className="text-center text-[40px] md:text-5xl lg:text-6xl"
           />
 
-          <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">
+          <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-3xl">
              I&apos;m an Android & Backend Developer From India.
           </p>
 
@@ -62,6 +62,9 @@ const Hero = () => {
               title="Show my work"
               icon={<FaLocationArrow />}
               position="right"
+              handleClick={() => {
+                window.location.href = 'https://github.com/Ansalpandey';
+              }}
             />
           </a>
         </div>
