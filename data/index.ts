@@ -69,70 +69,39 @@ export const gridItems = [
   },
 ];
 
-// export const projects = [
-//   {
-//     id: 1,
-//     title: "Add your projects Here for ex this",
-//     des: "Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.",
-//     img: "/p1.svg",
-//     iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
-//     link: "/",
-//   },
-//   {
-//     id: 2,
-//     title: "ex Yoom - Video Conferencing App",
-//     des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
-//     img: "/p2.svg",
-//     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
-//     link: "/",
-//   },
-//   {
-//     id: 3,
-//     title: "ex AI Image SaaS - Canva Application",
-//     des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
-//     img: "/p3.svg",
-//     iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
-//     link: "/",
-//   },
-//   {
-//     id: 4,
-//     title: "exAnimated Apple Iphone 3D Website",
-//     des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
-//     img: "/p4.svg",
-//     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-//     link: "/",
-//   },
-// ];
-
-export const testimonials = [
+export const projects = [
   {
-    quote:
-      "Collaborating with Ankit was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Ankit's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Ankit is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+    id: 1,
+    title: "JMovieMania",
+    des: "A movie app that allows users to search for movies, view details, and save their favorite movies, built on Jetpack Compose and Kotlin.",
+    img: "/p1.svg",
+    iconLists: ["/f3.png", "/ktl.svg", "/android.svg", "/firebase.svg", "/git.svg"],
+    link: "https://github.com/Ansalpandey/JMovieMania",
   },
   {
-    quote:
-      "Collaborating with Ankit was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Ankit's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Ankit is the ideal partner.",
-    title: "Director of AlphaStream Technologies",
+    id: 2,
+    title: "Slidee",
+    des: "Slidee is a community-based social networking platform designed to empower users to share their learnings, create courses, and produce lesson videos.",
+    img: "/p2.jpg",
+    iconLists: ["/f3.png", "/ktl.svg", "/android.svg", "/firebase.svg", "/git.svg"],
+    link: "https://github.com/Ansalpandey/Slidee",
   },
   {
-    quote:
-      "Collaborating with Ankit was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Ankit's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Ankit is the ideal partner.",
-    title: "Director of AlphaStream Technologies",
+    id: 3,
+    title: "Slidee-Backend",
+    des: "This is a backend application built using Node.js, Express.js, and MongoDB to serve educational content with user authentication and other education-related features.",
+    img: "/p2.jpg",
+    iconLists: ["/js.svg", "/expressjswhite.svg", "/mongodb.svg", "/dock.svg", "nodejs.svg", "/git.svg"],
+    link: "https://github.com/Ansalpandey/Slidee-Backend",
   },
   {
-    quote:
-      "Collaborating with Ankit was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Ankit's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Ankit is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
-  },
-  {
-    quote:
-      "Collaborating with Ankit was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Ankit's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Ankit is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
-  },
+    id: 4,
+    title: "BuyVerse",
+    des: "Buyverse is an e-commerce web application built using Node.js, Express.js, and MongoDB.",
+    img: "/p3.svg",
+    iconLists: ["/js.svg", "/expressjswhite.svg", "/mongodb.svg", "/dock.svg", "nodejs.svg", "/git.svg"],
+    link: "https://github.com/Ansalpandey/Buyverse",
+  }
 ];
 
 export const companies = [
@@ -170,9 +139,19 @@ export const companies = [
   },
 
   {
-    id: 6,
+    id: 7,
     name: "CMP.",
     img: "/cmp.svg",
+  },
+  {
+    id: 8,
+    name: "nodejs.",
+    img: "/nodejs.svg",
+  },
+  {
+    id: 9,
+    name: "github.",
+    img: "/git.svg",
   }
 ];
 
@@ -216,7 +195,7 @@ export const socialMedia = [
   {
     id: 2,
     img: "/insta.svg",
-    link: "https://www.instagram.com/ansalpandey/",
+    link: "https://www.instagram.com/ansal_pandey/",
   },
   {
     id: 3,
