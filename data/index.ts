@@ -104,57 +104,6 @@ export const projects = [
   }
 ];
 
-export const companies = [
-  {
-    id: 1,
-    name: "Kotlin",
-    img: "/ktl.svg",
-  },
-  {
-    id: 2,
-    name: "android",
-    img: "/android.svg",
-  },
-  {
-    id: 3,
-    name: "firebase",
-    img: "/firebase.svg",
-  },
-  {
-    id: 4,
-    name: "expressjs",
-    img: "/expressjs.svg",
-  },
-
-  {
-    id: 5,
-    name: "expressjs",
-    img: "/java.svg",
-  },
-
-  {
-    id: 6,
-    name: "docker.",
-    img: "/dock.svg",
-  },
-
-  {
-    id: 7,
-    name: "CMP.",
-    img: "/cmp.svg",
-  },
-  {
-    id: 8,
-    name: "nodejs.",
-    img: "/nodejs.svg",
-  },
-  {
-    id: 9,
-    name: "github.",
-    img: "/git.svg",
-  }
-];
-
 export const workExperience = [
   {
     id: 1,
